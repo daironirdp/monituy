@@ -1,0 +1,84 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+
+# -------------------------
+# Dependencies
+# -------------------------
+Pipfile.lock
+
+# -------------------------
+# Distribution / packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Scrapy
+# -------------------------
+.scrapy/
+*.log
+logs/
+
+# Output de scraping
+*.json
+*.jl
+*.csv
+*.xml
+
+# -------------------------
+# FastAPI / App
+# -------------------------
+*.db
+*.sqlite3
+
+# -------------------------
+# Testing / coverage
+# -------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# -------------------------
+# IDEs / editors
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env.*
+!.env.example
+
+# -------------------------
+# Docker
+# -------------------------
+docker-compose.override.yml
+
+# -------------------------
+# Misc
+# -------------------------
+*.bak
+*.tmp
